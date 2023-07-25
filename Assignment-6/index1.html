@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+.form1 {
+width: 30%;
+border: 2px solid black;
+padding: 6px;
+margin: 4px;
+height: auto;
+
+}
+
+th {
+padding: 10px;
+text-align: right;
+}
+
+td {
+padding: 6px;
+}
+
+input {
+padding: 6px;
+}
+
+input[type="reset"] , input[type="submit"] {
+	padding: 10px;
+	margin: 10px;
+	width: 200px;
+	text-align: center;
+	background-color: green;
+	color: white;
+	
+}
+
+input[type="reset"]:hover , input[type="submit"]:hover {
+background-color: black;
+}
+
+
+</style>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<center>
+		<h1>Login Form</h1>
+		<form class="form1"  method="POST" action="Process.jsp">
+		<table>
+		<tr>
+		<th>Username</th>
+		<td><input type="text" name="uname" placeholder="Enter Username" required="required"></td><br>
+		</tr>
+		<tr>
+		<th>Password</th>
+		<td><input type="password" name="pass" placeholder="Enter Password" required="required"></td><br>
+		</tr>
+		<tr>
+		<td colspan="2" align="center"><input type="reset" value="Reset"></button></td>
+		</tr>
+		<tr>
+		<td colspan="2" align="center"><input type="submit" value="Submit"  ></td></button>
+		</tr>	
+		</table>
+		</form>
+	<script>
+	
+	</script>
+	
+	</center>
+
+</body>
+</html>

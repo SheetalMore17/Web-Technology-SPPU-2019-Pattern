@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="emp.css" type="text/css"?>
+<?xml-stylesheet href="employee.xsl" type="text/xsl"?> 
+<employees>
+<title>Hello Everyone!</title>
+    <info>
+        <name>Sheetal More</name>
+        <age>20</age>
+        <salary>10000</salary>
+        <address>Pune</address>
+    </info>
+    <info>
+        <name>Smita Pawar</name>
+        <age>21</age>
+        <salary>20000</salary>
+        <address>Solapur</address>
+    </info>
+    <info>
+        <name>Sneha Mane</name>
+        <age>22</age>
+        <salary>300000</salary>
+        <address>Latur</address>
+    </info>
+    <info>
+        <name>Parth Chavan</name>
+        <age>19</age>
+        <salary>70000</salary>
+        <address>Delhi</address>
+    </info>
+    <info>
+        <name>Diskha Shinde</name>
+        <age>20</age>
+        <salary>90000</salary>
+        <address>Nashik</address>
+    </info>
+    <info>
+        <name>Nilesh Kolge</name>
+        <age>25</age>
+        <salary>50000</salary>
+        <address>Mumbai</address>
+    </info>
+</employees>
